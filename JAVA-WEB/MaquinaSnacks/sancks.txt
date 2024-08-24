@@ -1,0 +1,4 @@
+1,Papas,1700.0
+2,Refresco,5000.0
+3,Sandwich,2400.0
+4,Chocolate,3000.0
