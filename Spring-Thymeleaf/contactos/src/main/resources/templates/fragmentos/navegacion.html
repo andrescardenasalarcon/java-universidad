@@ -1,0 +1,25 @@
+<!doctype html>
+<!--ESPECIFICAMOS LAS LIBS O ETIQUETAS DE THYMELEAFT "name_space" -->
+<html lang="en" xmlns:th="html://www.thymeleaft.org">
+
+<!--Div menu de navegacion-->
+<div th:fragment="navegacion-seccion" th:remove="tag">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Sistema de Contactos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        <a class="nav-link" href="/agregar">Agregar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
